@@ -78,7 +78,7 @@ class PlacesController extends AppController {
 			'fields' => array(
 				'count(Event.place_id) AS count',
 				'Place.id',
-				'Edition.name',
+				'City.name',
 				'Place.name',
 				'Place.created',
 				'Place.modified'
